@@ -5,7 +5,7 @@ uri: "https://www.cm-lagoa.pt"   # Entre as aspas escreve o domínio do website
 a11y_statement: "https://www.cm-lagoa.pt/acessibilidade" # Entre as aspas escreve o URL da Declaração de Acessibilidade do website
 owner: "CM de Lagoa do Algarve"         # Entre as aspas escrever o nome do owner do website
 seal: "Ouro"                          # Entre as aspas escreve Bronze, Prata ou Ouro
-validity: "04/09/2026 a 04/09/2027" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
+validity: "dd/mm/aaaa a dd/mm/aaaa" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
 status: "Concluído" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
 ---
 
@@ -15,8 +15,8 @@ status: "Concluído" # Entre as aspas escreve uma das seguintes opções: "Audit
 - URL: https://www.cm-lagoa.pt
 - Propriedade: CM de Lagoa do Algarve
 - Candidatura: Ouro
-- Validade do selo: 04/09/2026 a 04/09/2027
-- Estado: Concluído
+- Validade do selo: dd/mm/aaaa
+- Estado: Auditoria a decorrer
 
 ## Relatório de auditoria
 
