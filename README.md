@@ -6,17 +6,19 @@ a11y_statement: "https://www.cm-lagoa.pt/acessibilidade" # Entre as aspas escrev
 owner: "CM de Lagoa do Algarve"         # Entre as aspas escrever o nome do owner do website
 seal: "Ouro"                          # Entre as aspas escreve Bronze, Prata ou Ouro
 validity: "dd/mm/aaaa a dd/mm/aaaa" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
-status: "Auditoria a decorrer" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
+status: "A aguardar correções da entidade" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
 ---
 
 # Site Institucional do Município de Lagoa do Algarve (Sítio Web)
 
-- Data de criação: 13/07/2026
-- URL: https://www.cm-lagoa.pt
-- Propriedade: CM de Lagoa do Algarve
-- Candidatura: Ouro
-- Validade do selo: dd/mm/aaaa
-- Estado: Auditoria a decorrer
+Sítio Web: {{ page.website }}
+
+- Data de criação: {{ page.date }}
+- URL: {{ page.uri }}
+- Propriedade: {{ page.owner }}
+- Candidatura: {{ page.seal }}
+- Validade do selo: {{ page.validity }}
+- Estado: {{ page.status }}
 
 ## Relatório de auditoria
 
@@ -27,7 +29,7 @@ Consulte aqui a última atualização: [Relatório Site Institucional do Municí
 <details>
   <summary>Histórico de atualizações</summary>
   <ul aria-label="lista de relatórios já efetuados">
-    <li><a href="04092026_report.html">(04/09/2026). Relatório Site Institucional do Município de Lagoa do Algarve</a></li>
+    <li><a href="21092026_report.html">(21/09/2026). Relatório Site Institucional do Município de Lagoa do Algarve</a></li>
   </ul>
 </details>
 
