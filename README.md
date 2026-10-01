@@ -5,11 +5,11 @@ uri: "https://www.cm-lagoa.pt"   # Entre as aspas escreve o domínio do website
 a11y_statement: "https://www.cm-lagoa.pt/acessibilidade" # Entre as aspas escreve o URL da Declaração de Acessibilidade do website
 owner: "CM de Lagoa do Algarve"         # Entre as aspas escrever o nome do owner do website
 seal: "Ouro"                          # Entre as aspas escreve Bronze, Prata ou Ouro
-validity: "dd/mm/aaaa a dd/mm/aaaa" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
-status: "A aguardar correções da entidade" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
+validity: "01/10/2026 a 01/10/2027" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
+status: "Concluído" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
 ---
 
-# Site Institucional do Município de Lagoa do Algarve (Sítio Web)
+# Relatório de auditoria
 
 Sítio Web: {{ page.website }}
 
@@ -20,7 +20,7 @@ Sítio Web: {{ page.website }}
 - Validade do selo: {{ page.validity }}
 - Estado: {{ page.status }}
 
-## Relatório de auditoria
+## Relatório {{ page.website }}
 
 <p>O presente relatório resultou da auditoria da informação publicada na <a href="{{ page.a11y_statement }}">Declaração de Acessibilidade e Usabilidade</a>.</p>
 
@@ -29,6 +29,7 @@ Consulte aqui a última atualização: [Relatório Site Institucional do Municí
 <details>
   <summary>Histórico de atualizações</summary>
   <ul aria-label="lista de relatórios já efetuados">
+    <li><a href="01102026_report.html">(01/10/2026). Relatório Site Institucional do Município de Lagoa do Algarve</a></li>
     <li><a href="21092026_report.html">(21/09/2026). Relatório Site Institucional do Município de Lagoa do Algarve</a></li>
   </ul>
 </details>
